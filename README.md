@@ -33,7 +33,7 @@ Set-AzDefault -ResourceGroupName {resource group Id}
 Deploy:
 
 ```powershell
-New-AzResourceGroupDeployment -TemplateFile main.bicep
+New-AzResourceGroupDeployment -TemplateFile main.bicep -environmentType nonprod
 ```
 
 View deployments:
